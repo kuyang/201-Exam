@@ -9,20 +9,21 @@
 </head>
     <h1>ACME Coding Bootcamp</h1>
 <body>
-    <table id = 'table'>
+    <table id = 'Table'>
     </table>
     <h2>Add New Candidates:</h2>
-    <form id='form'>
-        <h4>Name:</h4>
-        <input name='candidateName' required></input>
+    <div></div>
+    <form id='Form'>
+        <h4 class=name>Name:</h4>
+        <input name='candidateName' required onfocus="this.value=''"></input>
 
-        <h4>School attended:</h4>
+        <h4 class=school>School attended:</h4>
+        <input name='codeSchool' required required onfocus="this.value=''"></input>
         <h6>*Enter "Self Taught" if no school.</h6>
-        <input name='candidateSchool' required></input>
 
-        <h4>Programing languages:</h4>
-        <input name='candidateLanguage' required></input>
-        <button id='submitButton' type='submit'>Submit</button>
+        <h4 class=language>Programing languages:</h4>
+        <input name='language' required required onfocus="this.value=''"></input>
+        <button id='submitButton' type='submit' >Submit</button>
         <button id='clearButton' type='reset'>Reset Form</button>
     </form>
     
