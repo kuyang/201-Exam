@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+</head>
+    <h1>ACME Coding Bootcamp</h1>
+<body>
+    <table id = 'Table'>
+    </table>
+    <h2>Add New Candidates:</h2>
+    <div></div>
+    <form id='Form'>
+        <h4 class=name>Name:</h4>
+        <input name='candidateName' required onfocus="this.value=''"></input>
+
+        <h4 class=school>School attended:</h4>
+        <input name='codeSchool' required required onfocus="this.value=''"></input>
+        <h6>*Enter "Self Taught" if no school.</h6>
+
+        <h4 class=language>Programing languages:</h4>
+        <input name='language' required required onfocus="this.value=''"></input>
+        <button id='submitButton' type='submit' >Submit</button>
+        <button id='clearButton' type='reset'>Reset Form</button>
+    </form>
+    
+</body>
+<script src="index.js"></script>
+</html>
